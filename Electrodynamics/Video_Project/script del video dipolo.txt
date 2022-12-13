@@ -1,0 +1,9 @@
+# que es un dipolo
+previamente obtuvimos los potenciales retardados,
+la teoria del dipolo puede ser replicada, para un dipolo de cargas electricas partimos con el potencial y realizaremos las debidas aproximaciones;
+
+Se comprobara si el potencial escalar y el vectorial magnetico cumplen el gauge de Lorentz
+
+y se visualizara el campo electrico y el vector de Poynting en 3 dimensiones para un dipolo, el concepto principal es como se distribuye la radiación.
+
+# los potenciales retardados 
