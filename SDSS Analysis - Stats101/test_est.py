@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-df = pd.read_csv('SDSS_QSO.csv', index_col=0) # dataframe
+df = pd.read_csv('SDSS_notOutliers.csv', index_col=0) # dataframe
 
 '''
 count   0

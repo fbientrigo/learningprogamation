@@ -1,0 +1,63 @@
+Tengase el caso que llegas a un nuevo planeta, 
+tienes semillas, pero no son ilimitadas
+te propones conocer como varian las estaciones, la temperatura
+con la menor cantidad de datos posibles
+
+antes de llegar se observo que orbita al sol en unos 100 dias
+
+
+( teorema de nyquist:
+	nos dira cuantos datos he de tomar para obtener dada frecuencia )
+
+
+
+T = 100 dias # tengo 120 dias antes de que se pudran las semillas y se termine la comida
+# N = ? # cuantos datos hemos de tomar?
+
+samplingFreq = N / T 
+
+# para obtener datos de frecuencia al año, he de tener una sampling frquencye
+maxFreq = 100 [1/dias] # paralelo a Hz
+
+# shannon nyquist theorem
+# maxFreq == 2* samplingFreq
+# -> samplingFreq = 200 [1/dias] 
+# -> N / 100 = 200
+# -> N = 40 000 # datos
+
+N = 40 000 
+samplingFreq = N / T
+
+# Señales de temperatura, humedad
+t 
+y_t(t)
+y_h(t)
+
+plt.plot(t, y_t )
+
+# Luego tomo la transformada de fourier
+ft_t = fft.fft(y_t)
+ft_h = fft.fft(y_h)
+
+# corto 
+
+# las frecuencias en (1/T) unidades
+freq = fft.freq( N ) * N/T
+
+# plots
+# plot hasta la mitad ya que la otra mitad de la fft para datos reales
+# es el complejo conjugado
+# tendra igual magnitud
+# aparte por el teorema de shannon nyquist, solo tomamos hasta la mitad de la frecuencias
+limit = int(N/2)
+freq = freq[: limit]
+plt( freq[]  , 
+
+
+
+
+
+
+
+
+
