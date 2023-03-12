@@ -1,0 +1,11 @@
+C:\src\vcpkg\installed\x86-windows\include
+
+
+
+g++ -std=c++11 -I <path/to/vcpkg>/installed/x86-windows/include -L <path/to/vcpkg>/installed/x86-windows/lib -lmatplotlib-cpp script.cpp -o script
+
+
+uasdno eso
+
+
+g++ -std=c++11 -I  C:\src\vcpkg\installed\x86-windows\include -L <path/to/vcpkg>/installed/x86-windows/lib -lmatplotlib-cpp script.cpp -o script

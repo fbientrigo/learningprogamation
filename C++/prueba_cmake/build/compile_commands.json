@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/msys64/home/Code/Programacion/C++/prueba_cmake/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\prueba.dir\\main.cpp.obj -c C:\\msys64\\home\\Code\\Programacion\\C++\\prueba_cmake\\main.cpp",
+  "file": "C:/msys64/home/Code/Programacion/C++/prueba_cmake/main.cpp"
+}
+]

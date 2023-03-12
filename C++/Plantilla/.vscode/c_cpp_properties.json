@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "cpp_phys",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/src/vcpkg/installed/**",
+                "C:/src/mingw64/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/src/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

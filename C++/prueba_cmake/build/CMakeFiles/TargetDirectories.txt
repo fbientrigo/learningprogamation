@@ -1,0 +1,3 @@
+C:/msys64/home/Code/Programacion/C++/prueba_cmake/build/CMakeFiles/prueba.dir
+C:/msys64/home/Code/Programacion/C++/prueba_cmake/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/Code/Programacion/C++/prueba_cmake/build/CMakeFiles/rebuild_cache.dir

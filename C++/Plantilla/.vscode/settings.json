@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:/src/mingw64/bin/;${env:PATH}"
+        },
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.sourceDirectory": "${workspaceFolder}/prueba_cmake"
+}
