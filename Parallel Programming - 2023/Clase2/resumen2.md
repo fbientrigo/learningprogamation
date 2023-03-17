@@ -1,8 +1,5 @@
 #Clase 2
 
-## 
-
-
 ## Arreglos multidimensionales
 Poblar o iterar sobre un arreglo bidimensional, solemos pensarlos de manera uni dimensional
 ```
