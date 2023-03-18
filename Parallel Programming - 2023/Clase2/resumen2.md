@@ -11,12 +11,12 @@ for (int i=0; i<xN; i++){
 ```
 Pues asi nos aproximamos mas al modelo que tiene la computadora fisica de los datos.
 
-## Paralelizacion y la idea del curso
+# Paralelizacion y la idea del curso
 La idea del curso es paralelizar programas, metodos de machine learning, paralelizaciones, programas que requieran de muchos calculos.
 
 Tendremos ciclos extremadamente largos, la paralelizacion es comunmente dividir el trabajo de los ciclos en distinos hilos llamados `threads`
 
-### Optimizacion
+## Optimizacion
 Es buena idea partir por la optimizacion antes de paralelizar;
 aprender los algoritmos a utilizar y su eficiencia es algo netamente matematico, muchas veces facil de aplicar es algo poderoso.
 
@@ -32,7 +32,7 @@ gcc .\c2_9_tiempo.c -o tiempo.exe -O3
 ```
 Con el uso de optimizaciones : `El tiempo: 0.091000`
 
-#### object code
+### object code
 Permite pasar nuestro codio a lenguaje de maquina, reduciendo la abstracciones innecesarias y dejando lo importante
 
 Generamos un object file:
@@ -51,3 +51,33 @@ en resumen, cuando escribimos un programa queremos buscar posibilidades de optim
 
 ## Instalar Librerias
 El profe se encargara de que tengamos cuentas para KOSMOS, y ahi se procedera a continuar esa parte.
+
+# Metricas
+### Speedup:
+$$
+S = \frac{T(1)}{T(p)}
+$$
+donde $T(p)$ es el tiempo de `p` procesadores
+
+### Eficiencia:
+El speedup per procesador
+$$
+E = \frac{S}{p}
+$$
+
+### Costo
+$$
+C = T(p) * p
+$$
+
+## Conceptos como
+- Escalabilidad, fuerte: estamos hablando de cuanto cambia la eficiencia de la paralelizacion con una cantidad fija de datos variando p.
+Al pedir tiempo de computacion de un super cluster, se pide un analizis de escalabilidad para ver si vale la pena que nos entreguen mas procesadores, eventualmente se llegara a un peak donde no ayude poner mas procesadores.
+
+- Escalabilidad, debil: como cambia la eficiencia, variando la cantidad de datos y p.
+Esta version es mas complicada porque variamos 2 cantidades;
+
+- Razon de computa-a-comunicacion: este es el concepto por el que la paralelizacion no siempre funciona, a veces necesitamos comunicacion entre los distintos procesos; este tiempo de comunicacion posee un coste.
+Queremos tener el porcentaje maximo de computo y minimizar la comunicacion (que es tiempo perdido).
+
+### ejemplo: sumar un arreglo
