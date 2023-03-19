@@ -1,0 +1,4 @@
+C:/msys64/home/Code/learningprogamation/Parallel Programming - 2023/Algoritmos/heapsort_cmake/build/CMakeFiles/heapsort.dir
+C:/msys64/home/Code/learningprogamation/Parallel Programming - 2023/Algoritmos/heapsort_cmake/build/CMakeFiles/example.dir
+C:/msys64/home/Code/learningprogamation/Parallel Programming - 2023/Algoritmos/heapsort_cmake/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/Code/learningprogamation/Parallel Programming - 2023/Algoritmos/heapsort_cmake/build/CMakeFiles/rebuild_cache.dir
