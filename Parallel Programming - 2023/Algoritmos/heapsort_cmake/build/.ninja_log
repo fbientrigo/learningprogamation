@@ -1,5 +1,0 @@
-# ninja log v5
-15	153	7009019150645061	CMakeFiles/example.dir/main.c.obj	7b8c53aa9e68457a
-4	164	7009019150695055	CMakeFiles/heapsort.dir/heapsort.c.obj	429937a5e6743cc0
-165	411	7009019153195026	libheapsort.a	7e33521ead68ea8d
-411	678	7009019155855017	example.exe	8d0811137fef64af
